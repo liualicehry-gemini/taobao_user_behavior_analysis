@@ -1,0 +1,14 @@
+{
+    "input_file": "data/raw/taobao_user_behavior_processed.csv",
+    "output_file": "data/processed/cleaned_taobao_data.csv",
+    "user_features_file": "data/processed/user_features.csv",
+    "item_features_file": "data/processed/item_features.csv",
+    "category_features_file": "data/processed/category_features.csv",
+    "user_item_features_file": "data/processed/user_item_features.csv",
+    "user_category_file": "data/processed/user_category_features.csv",
+    "time_features_file": "data/processed/time_features.csv",
+    "sequence_file": "data/processed/user_sequences.pkl",
+    "max_sequence_length": 20,
+    "chunk_size": 1000000,
+    "valid_behaviors": [1, 2, 3, 4]
+}
